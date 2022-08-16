@@ -1,0 +1,283 @@
+body {
+   background-color:#141414;
+   font-family: 'Oswald', sans-serif;
+}
+
+.Container {
+   max-width: 1200px;
+   margin: 0px auto;
+}
+
+.Main-information {
+   background-image: url(Pictures/Main-Information.jpeg);
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+
+.Logo {
+   max-width: 500px;
+   margin: auto;
+}
+
+.Presentation {
+   background-color: rgb(20, 20, 20, 0.5);
+   max-height: 600px;   
+   padding: 180px 20px;
+}
+
+.About-company {
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   margin: 30px 0px;
+}
+
+.About-us {
+   text-align: center;
+   margin: 0px auto;
+   padding: 20px 0px ;
+   color: whitesmoke;
+}
+
+.About-us h1 {
+   font-size: 45px;
+   text-transform: uppercase;
+   margin-top: 0px;
+   font-weight: 400;
+}
+
+.About-us p {
+   max-width: 80%;
+   /* word-spacing: .1em; */
+   margin: 10px auto;
+   font-size: 18px;
+   font-weight: 100;
+   line-height: 1.2;
+}
+
+.Photo-company img {
+   width: 100%;
+   vertical-align: middle;
+   margin: auto;
+   padding: 20px 0px ;
+}
+
+.Background-white {
+   background-color: whitesmoke;
+}
+
+.Team {
+   color: #141414;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.Team h1 {
+   font-size: 45px;
+   text-transform: uppercase;
+   font-weight: 400;
+   color: #141414;
+   margin: 15px auto;
+}
+
+.Workers {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   padding: 0px;
+}
+
+.Worker {
+   list-style: none;
+   margin: 20px auto ;
+   opacity: 0.95;
+}
+
+.Worker img {
+   max-width: 250px;
+}
+
+.Worker p{
+   font-size: 20px;
+   margin: 0;
+   padding: 10px;
+}
+
+.Services {
+   color: whitesmoke;
+   margin-top: 30px;
+   text-align: center
+}
+
+.Services h1 {
+   text-transform: uppercase;
+   margin-bottom: 0px;
+   padding: 0px 0px;
+   font-size: 45px;
+   font-weight: 400;
+}
+
+/* .Outline{
+   outline: 1px solid whitesmoke;
+}    */
+
+
+.Services ul {
+   margin: auto;
+   padding-left: 0;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   max-width: 600px;
+}
+
+.Services li {
+   list-style: none;
+   border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+   margin: 10px auto;
+   padding-top: 20px;
+   padding-bottom: 5px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.Service {
+   text-align: left;
+   font-size: 15px;
+   text-transform: uppercase;
+}
+
+.Price {
+   text-align: right;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+main form {
+   display: block;
+   box-sizing: content-box;
+   
+}
+
+.Registration {
+   padding: 30px 0px;
+   max-width:550px;
+   margin: auto;
+}
+
+.Registration h1 {
+   color: #141414;
+   font-weight: 400;
+   text-transform: uppercase;
+   font-size: 45px;
+   text-align: center;
+}
+
+.Registration img{
+   max-width: 200px;
+   margin: auto;
+   padding-bottom: 20px;
+   display: block;
+}
+
+.Registration input{
+   background-color: whitesmoke;
+   color: #141414;
+   border: 1px solid #141414;
+   height: 50px;
+   width: 100%;
+   box-sizing: border-box;
+   text-align: left;
+   font-size: 18px;
+   padding: 5px 20px;
+}
+
+.Registration p{
+   text-align: center;
+}
+
+.Registration button {
+   background-color: whitesmoke;
+   color: #141414;
+   text-transform: uppercase;
+   font-weight: 500;
+   border: 1px solid #141414;
+   padding: 10px 5px;
+   height: 40px;
+   width: 20%;
+   font-size: 19px;
+   text-align: center;
+}
+
+.Registration button:hover {
+   background-color: #141414;
+   color: whitesmoke;
+   transition: 0.5s;
+}
+
+.Location {
+   display: grid;
+   grid-template-columns: 1fr 1.5fr;
+   margin-top: 20px;
+   padding-top: 0px;
+   padding-bottom: 20px;
+}
+
+.Contact {
+   font-size: 45px;
+   font-weight: 400;
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 20px;
+   margin-bottom: 10px;
+}
+
+.Main-contacts {
+   margin: auto;
+   display: inline-block;
+}
+
+.Contacts {
+   font-size: 23px;
+   display: grid;
+   grid-template-rows: 2fr 1fr;
+}
+
+.Contacts ul {
+   color: #141414;
+   list-style: none;
+   padding-left: 0px;
+   /* margin: auto; */
+}
+
+.Contacts li {
+   display: flex;
+   flex-flow: row;
+   width: 230px;
+   /* white-space: nowrap; */
+}
+
+.Contacts img {
+   max-width: 25px;
+   color: whitesmoke;
+   margin: 10px;
+}
+
+.Contacts a {
+   text-decoration: none;
+   color: #141414;
+   padding-bottom: 0;
+   text-transform: uppercase;
+}
+
+.Contacts a:hover {
+   color: rgb(20, 20, 20, 0.6);
+   transition: 0.2s;
+}
+
+.Map {
+   border: 1px solid rgb(20, 20, 20, 0.2);
+}
+
+.Map iframe{
+   width: 100%;
+}

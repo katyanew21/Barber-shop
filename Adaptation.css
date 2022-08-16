@@ -1,0 +1,305 @@
+/* @media (max-width: 1200px) {
+    .Container {
+        max-width: 80vw;
+    }
+
+    .Workers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+} */
+
+/* @media (max-width: 1024px) {
+    .Container {
+        width: 90vw;
+    }
+
+    .Main-information {
+        list-style: none;
+    }
+
+    .About-company {
+        display: block;
+    }
+
+    .Background-white {
+        background-color: whitesmoke;
+        width: 100vw;
+        margin: auto;
+     }
+
+     .Rectangle {
+        height: 60px;
+        background-color: #141414;
+        /* outline: solid red 1px;
+    
+
+    .Header_body {
+        display: block;
+    }
+
+    .Menu-box {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .Menu-box li {
+        list-style: none;
+    }
+
+    .Workers{
+        margin-top: 0px;
+        width: 100%;
+        border-color: whitesmoke;
+        padding-bottom: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Worker {
+        margin-bottom: 0px;
+    }
+
+    .Worker img {
+        max-width: 85%;
+    }
+
+    .Location {
+        display: block;
+        margin: auto;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+
+    .Main-contacts{
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .Main-contacts img {
+        margin: 10px 15px;
+    }
+
+    .Contacts li {
+        margin: auto;
+        max-width: max-content;
+        display: inline-table;
+    }
+
+    .Contacts p {
+        display: block;
+    }
+
+    .Social-media {
+        margin: auto;
+    }
+} */
+
+@media (max-width: 767px) {
+    .Header_body {
+        height: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, .2);
+        outline: salmon solid 1px;
+    }
+
+    .Rectangle {
+        height: 60px;
+        background-color: #141414;
+        /* outline: solid red 1px; */
+    }
+
+    .Header-Logo {
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    #Menu-toggle {
+        opacity: 0;
+    }
+
+    .Menu-button {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 12px;
+        right: 10px;
+        width: 45px;
+        height: 50px;
+        z-index: 1;
+    }
+    
+    .Menu-button > span,
+    .Menu-button > span::before,
+    .Menu-button > span::after {
+     display: block;
+     position: absolute;
+     width: 100%;
+     height: 4px;
+     background-color: whitesmoke;
+     transition-duration: .25s;
+    }
+
+    .Menu-button > span::before {
+     content: '';
+     top: -12px;
+    }
+    .Menu-button > span::after {
+     content: '';
+     top: 12px;
+    }
+    
+    .Menu-box {
+      display: block;
+      position: fixed;
+      visibility: hidden;
+      top: 0;
+      left: 0%;
+      width: 100vw;
+      height: 100%;
+      margin: 0;
+      text-align: center;
+      padding: 0px 0;
+      background-color: whitesmoke;
+      box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+      transition-duration: .25s;
+    }
+    
+    .Menu-item {
+      display: block;
+    }
+
+    .Menu-item:hover {
+      background-color: whitesmoke;
+    }
+    
+    #Menu-toggle:checked ~ .Menu-button > span{
+      transform: rotate(45deg);
+    }
+    #Menu-toggle:checked ~ .Menu-button > span::before{
+      top: 0;
+      transform: rotate(0);
+    }
+    #Menu-toggle:checked ~ .Menu-button > span::after{
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #Menu-toggle:checked ~ .Menu-box{
+      visibility: visible;
+      right: 0;
+      background-color: whitesmoke;
+    }
+
+    /* .Main-information {
+        z-index: 3;
+    } */
+
+    .Container {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .Background-white {
+        background-color: whitesmoke;
+        width: 100%;
+        margin: auto;
+     }
+
+    .Main-information {
+        max-width: 100%;
+        height: 400px;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .Presentation {
+        display: none;
+    }
+
+    .About-company {
+        display: block;
+    }
+
+    .About-us {
+        padding: 0 0 10px 0;
+    }
+
+    .About-us p {
+        font-size: 17px;
+        margin: 10px auto;
+    }
+
+    .Container h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .Photo-company {
+        display: none;
+    }
+
+    .Workers{
+        margin-top: 0px;
+        width: 100%;
+        border-color: whitesmoke;
+        padding-bottom: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Worker {
+        margin-bottom: 0px;
+    }
+
+    .Services ul {
+        padding-top: 5px;
+        margin: 0 25px;
+    }
+
+    .Service {
+        font-size: 15px;
+    }
+
+    .Registration input {
+        max-width: 80%;
+    }
+
+    .Location {
+        display: block;
+        margin: auto;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+
+    .Main-contacts{
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .Main-contacts img {
+        margin: 10px 15px;
+    }
+
+    .Contacts li {
+        margin: auto;
+        max-width: max-content;
+        display: inline-table;
+    }
+
+    .Contacts p {
+        display: block;
+    }
+
+    .Social-media {
+        margin: auto;
+    }
+}
